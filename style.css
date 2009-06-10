@@ -62,7 +62,8 @@ border:none !important;
 
 #main_navigation ul li a:hover,
 .second_info ul li a:hover{
-color:#69B61D;
+/*color:#69B61D;*/
+color:#538422;
 }
 
 #main_navigation ul li a,
@@ -108,7 +109,7 @@ overflow: hidden;
 background-position: -370px 0;
 }
 
-#latest_news h3{
+#lastest_news h3{
 text-indent:-50000px;
 overflow: hidden;
 background-position: -550px 0;
@@ -169,6 +170,8 @@ padding:0 0 0 26px;
 }
 
 
+
+
 .second_info a{
 color:#fff;
 font-size:10px;
@@ -196,7 +199,8 @@ margin-top:20px;
 }
 
 a{
-color:#69b61d;
+/*color:#69b61d;*/
+color:#538422;
 text-decoration:none;
 }
 
@@ -218,4 +222,6 @@ margin-top:-20px;
 }
 
 #error_404{
-display:none;}
+margin-left:175px;
+width:369px;
+}

@@ -36,8 +36,8 @@ Template Name: start page
 				<p class="read_more"><a href="<?php bloginfo('url');?>/choose-your-version/" class="menu">read more</a></p>
 			</div><!--end choose your version-->
 			
-			<div id="latest_news" class="grid_3 first_info">
-				<h3>Latest <span>news</span></h3>
+			<div id="lastest_news" class="grid_3 first_info">
+				<h3>Lastest <span>news</span></h3>
 					<?php query_posts("category_name=-Security Updates");?>
 					<?php $posts = get_posts( "category_name=news&numberposts=1" ); ?>
 					<?php if( $posts ) : ?>	  					 
