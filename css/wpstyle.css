@@ -1,0 +1,188 @@
+/*imagens align*/
+.alignright{
+	float:right;
+	margin:10px 0 10px 1em!important;
+}
+
+.alignleft{
+	float:left;
+	margin:10px 1em 10px 0 !important;
+	
+}
+
+.alignnone{
+	
+}
+
+.alignleft img,.alignright img,.alignnone img{
+	padding:10px;
+}
+
+.wp-caption {
+text-align: center;
+padding-top: 4px;
+margin: 10px;
+-moz-border-radius: 3px;
+-khtml-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+}
+.wp-caption img {
+margin: 0;
+padding: 0;
+border: 0 none;
+}
+.wp-caption p.wp-caption-text {
+font-size: 11px;
+line-height: 17px;
+padding: 0 4px 5px;
+margin: 0;
+}
+
+.aligncenter,
+div.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/*styling main content*/
+
+div.entry ul, div.entry ol, blockquote, p{
+	margin:1em 0 1em 0;
+}
+
+div.entry ul{
+	list-style:square;
+}
+
+div.entry ol{
+	list-style:circle;
+}
+
+div.entry ul li, div.entry ol li{
+	margin-left:3em;
+}
+
+ins{
+	font-style:italic;
+}
+
+blockquote{
+	-moz-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+
+blockquote p{
+	font-size: 1.2em;
+	padding:1em;
+	font-style:italic;
+}
+
+code{
+	display:block;
+	padding:1em;
+	-moz-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+strong{
+	font-weight:bold;
+}
+
+em{
+	text-decoration:underline;
+}
+
+
+
+ input, textarea {
+-moz-border-radius:3px;
+-khtml-border-radius: 3px;
+-webkit-border-radius: 3px;
+border:1px solid #D3D3D3;
+}
+
+.wpcf7-form-control-wrap textarea, .wpcf7-form-control-wrap input{
+	width:400px;
+}
+
+
+
+
+
+#menu{
+	font-size:70%;
+}
+
+/*comments*/
+
+.comment{
+	padding:1em;
+	margin:1.5em 0 1.5em;
+	border:1px solid #D3D3D3;
+	-moz-border-radius:3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+.comment p{
+}
+
+
+.avatar{
+	line-height:50px;
+}
+
+/*list*/
+
+div.storycontent ul, div.storycontent ol{
+	padding:1em;
+}
+div.storycontent ul li, div.storycontent ol li{
+	font-size:12px;
+	margin-left:1em;
+}
+
+div.storycontent ol li{
+	list-style:square;
+}
+
+div.storycontent ul li{
+	list-style:disc;
+}
+
+div#respond h3{
+	font-size:12px;
+}
+
+div.comment-meta a, cite.fn{
+	font-size:12px;
+}
+
+.sidebar_widget{
+	margin-bottom:1em;
+}
+
+li.sidebar_widget{
+	list-style:none;
+}
+
+.sidebar_widget ul li{
+	margin-left:1em;
+}
+
+li.content_item{
+	margin-bottom:40px;
+	list-style:none;
+}
+
+textarea#comment{
+width:700px;
+}

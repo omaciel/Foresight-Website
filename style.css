@@ -1,0 +1,221 @@
+/*
+Theme Name: Foresight Linux Wordpress Theme
+Theme URI: http://quartoestudio.com
+Description: Exclusive theme for Foresight Linux Theme
+Version: 1.1
+Author: QuartoEstudio.com
+Tags: 
+*/
+
+
+body{
+background:#fff;
+font:"Trebuchet MS", Verdana, "Bitstream Vera Sans", "DejaVu Sans", Tahoma, Geneva, Arial, Sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5{
+font: Lucida, sans-serif;
+}
+
+img{
+border:none;
+}
+
+#container{
+padding-top:2em;
+border-top:13px solid #538422;
+}
+
+#branding h1 a{
+display:block;
+background:url(img/foresight_linux_logo_339x57.png) no-repeat;
+width:339px;
+height:57px;
+text-indent:-5000px;
+overflow:hidden;
+}
+
+#main_navigation ul{
+list-style: none;
+float:right;
+margin-top:15px;
+}
+
+#main_navigation ul li{
+display:inline;
+}
+
+#main_navigation ul li a{
+font-family: "Trebuchet MS", Verdana, "Bitstream Vera Sans", "DejaVu Sans", Tahoma, Geneva, Arial, Sans-serif;
+font-size:15px;
+border-right:1px solid #2a2a2a;
+padding:0 .5em 0 .5em;
+}
+
+a.no_border{
+border:none !important;
+}
+
+#main_navigation ul li a:hover,
+.second_info ul li a:hover{
+color:#69B61D;
+}
+
+#main_navigation ul li a,
+.first_info h3{
+color:#2a2a2a;
+text-decoration: none;
+}
+
+.first_info h3{
+font-size:40px;
+line-height:10px;
+clear:both;
+float:left;
+display:block;
+height:40px;
+letter-spacing: -.04em;
+margin-bottom:4px;
+}
+
+/*titles*/
+.first_info h3{
+display:block;
+width:175px;
+height:70px;
+background: url(img/foresight_main_titles_991x55.png) no-repeat;
+}
+
+#about_foresight_linux h3{
+text-indent:-50000px;
+overflow: hidden;
+background-position: -10px 0;
+}
+
+#list_of_apps h3{
+text-indent:-50000px;
+overflow: hidden;
+background-position: -190px 0;
+}
+
+#choose_your_version h3{
+text-indent:-50000px;
+overflow: hidden;
+background-position: -370px 0;
+}
+
+#latest_news h3{
+text-indent:-50000px;
+overflow: hidden;
+background-position: -550px 0;
+}
+
+#security_updates h3{
+text-indent:-50000px;
+overflow: hidden;
+background-position: -730px 0;
+}
+
+.first_info ul li{
+list-style:none;
+}
+
+.date{
+font-style:italic;
+font-weight: bold;
+color:gray;
+}
+
+img.main_banner{
+margin-left:-40px;
+}
+
+#banner{
+margin-bottom: 27px;
+}
+
+img.internal_banner{
+border:1px dotted gray;
+}
+img.internal_banner:hover{
+border:1px solid #69B61D;
+}
+
+
+
+#secondary_navigation{
+background: #2b2b2b url(img/foresight_linux_footer_bg_2x230.jpg);
+background-repeat: repeat-x;
+}
+
+.second_info h4,
+.second_info ul li{
+margin:0 0;
+padding: 0 0;
+list-style: none;
+}
+
+.second_info h4{
+color:#fff;
+padding:26px 0 0 26px;
+}
+
+.second_info ul li{
+padding:0 0 0 26px;
+}
+
+
+.second_info a{
+color:#fff;
+font-size:10px;
+text-decoration: none;
+}
+
+#website_information p{
+text-align: center;
+font-size:10px;
+font-weight:bold;
+padding:20px;
+}
+
+.read_more a{
+background: url(img/foresight_linux_read_more_75x20.png) no-repeat;
+width:75px;
+height:20px;
+float:right;
+text-indent: -50000px;
+overflow: hidden;
+}
+
+#secondary_navigation{
+margin-top:20px;
+}
+
+a{
+color:#69b61d;
+text-decoration:none;
+}
+
+
+.sidebar ul li,
+li.sidebar_widget ul li{
+list-style:none;
+margin:0 0;
+padding:0 0;
+}
+
+div.sidebar ul li h4,
+li.sidebar_widget ul li h4{
+margin:0 0!important;
+}
+
+p.credits{
+margin-top:-20px;
+}
+
+#error_404{
+display:none;}
