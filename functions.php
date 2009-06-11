@@ -8,45 +8,26 @@ register_sidebar(array(
 'after_title' => '</h4>',
 ));
 
-function textLimit($string, $length, $replacer = '...')
+
+function page_excerpt ($page_title, $delimiter='[...]', $length=55)
 {
-  if(strlen($string) > $length)
-  return (preg_match('/^(.*)\W.*$/', substr($string, 0, $length+1), $matches) ? $matches[1] : substr($string, 0, $length)) . $replacer;
- 
-  return $string;
+	$page = get_page_by_title($page_title, ARRAY_A);
+        $clean_string = $page['post_content'];
+
+       return improved_trim_excerpt($clean_string, $delimiter, $length);
 }
 
-function crop_words ($string, $delimitador)
-{
-	// Separa a string em um array considerando somente as primeiras 55 posições
-	// a 56 posição conterá o restante do texto.
-	$array = split(" ", $string, 56);
-	// Remove o ultimo elemento (restante do texto)
-	array_pop($array);
-	// Monta a string para retorno
-	$result = implode(" ", $array) . " " . $delimitador;
-	
-	return $result;
+function improved_trim_excerpt($text, $delimiter, $length) {
+		$text = apply_filters('the_content', $text);
+		$text = str_replace(']]>', ']]&gt;', $text);
+		$text = preg_replace('@<script[^>]*?>.*?</script>@si', '', $text);
+		$text = strip_tags($text, '<p>');
+		$words = explode(' ', $text, $length + 1);
+		if (count($words)> $length) {
+			array_pop($words);
+			array_push($words, $delimiter);
+			$text = implode(' ', $words);
+		}
+	return $text;
 }
-
-//print(crop_words ($string, "leia mais"));
-
-
-function page_excerpt ($page_id,$delimitador)
-{
-	$page = get_post($page_id, ARRAY_A);
-	$string= $page['post_content'];
-	// Separa a string em um array considerando somente as primeiras 55 posições
-	// a 56 posição conterá o restante do texto.
-	$array = split(" ", $string, 56);
-	// Remove o ultimo elemento (restante do texto)
-	array_pop($array);
-	// Monta a string para retorno
-	$result = implode(" ", $array) . " " . $delimitador;
-	
-	return $result;
-}
-
-//$version=page_excerpt(65,"...");
-//				echo $version;
 ?>

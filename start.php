@@ -8,31 +8,23 @@ Template Name: start page
 		<div id="important_info">
 			<div id="about_foresight_linux" class="grid_3 first_info">
 				<h3>About <span>Foresight Linux</span></h3>
-					<p>Foresight is a desktop operating system featuring an intuitive user interface and a showcase of the latest desktop software, giving users convenient and enjoyable access to their music, photos, videos, documents, and Internet resources.</p>
+					<p><?php $about=page_excerpt("About Foresight Linux"); echo"$about";?></p>
 
-					<p>As a Linux distribution, Foresight sets itself apart by eliminating the need for the user to be familiar with Linux, combining a user-focused desktop environment on top of Conary...</p>
-
-					<p class="read_more"><a href="<?php bloginfo('url');?>/about/" class="menu">read more</a></p>
+					<p class="read_more"><a href="<?php bloginfo('url');?>/about-foresight-linux/" class="menu">read more</a></p>
 			</div><!--end about foresight linux-->
 			
 			<div id="list_of_apps" class="grid_3 first_info">
 				<h3>List <span>of featured apps</span></h3>
-<ul>
-	<li><strong><a href="http://www.freedesktop.org/wiki/Software/hal">HAL</a></strong> - Automatic hardware discovery and configuration, a.k.a. "It just works!"</li>
-	<li><strong><a href="http://www.gnome.org/projects/NetworkManager/">Network Manager</a></strong> - Automatic discovery of wireless networks and management of network connections</li>
-	<li><strong><a href="http://www.pidgin.im/">Pidgin</a></strong> - All-in-one Internet messaging</li>
-	<li><strong><a href="http://banshee-project.org/Main_Page">Banshee</a></strong> - Music management and playback</li>
-	<li><strong><a href="http://f-spot.org/Main_Page">F-spot</a></strong> - Personal photo management</li>
-	<li><strong><a href="http://do.davebsd.com/">GNOME Do</a></strong> - A powerful and speedy remote control for your GNOME Desktop</li>
-	<li><strong><a href="http://live.gnome.org/GnomeGames/">Games</a></strong> - Several fun and popular free games</li>
-	<li><strong><a href="http://www.packagekit.org/">PackageKit</a></strong> - View the latest version of installed software and update your system</li>
-</ul>
+					<?php $list=page_excerpt("List of apps"); echo"$list";?>
+					
+
 					<p class="read_more"><a href="<?php bloginfo('url');?>/list-of-apps/" class="menu">read more</a></p>
 			</div><!--end list of apps-->
 			
 			<div id="choose_your_version" class="grid_3 first_info">
 				<h3>Choose <span>your version</span></h3>
-					<p>Morbi non erat non ipsum pharetra tempus. Donec orci. Proin in ante. Pellentesque sit amet purus. Cras egestas diam sed ante. Etiam imperdiet urna sit amet risus. Donec ornare arcu id erat. Aliquam ultrices scelerisque sem. In elit nulla, molestie vel, ornare sit amet, interdum vel, mauris. Etiam dignissim imperdiet metus.</p>
+					<?php $version=page_excerpt("Choose your version"); echo"$version";?>
+					
 				<p class="read_more"><a href="<?php bloginfo('url');?>/choose-your-version/" class="menu">read more</a></p>
 			</div><!--end choose your version-->
 			
