@@ -11,7 +11,7 @@
 			<div id="get_help" class="grid_3 second_info">
 				<h4>Get Help</h4>
 				<ul>
-					<?php wp_get_linksbyname('Get Help','before=<li>','after=</li>','orderby=name&show_description=0&show_updated=1') ?>
+					<?php wp_get_linksbyname('Find Help','before=<li>','after=</li>','orderby=name&show_description=0&show_updated=1') ?>
 	
 				</ul>
 			</div><!--end get help-->
