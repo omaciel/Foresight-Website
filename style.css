@@ -10,7 +10,8 @@ Tags:
 
 body{
 background:#fff;
-font:"Trebuchet MS", Verdana, "Bitstream Vera Sans", "DejaVu Sans", Tahoma, Geneva, Arial, Sans-serif;
+/*font:"Trebuchet MS", Verdana, "Bitstream Vera Sans", "DejaVu Sans", Tahoma, Geneva, Arial, Sans-serif;*/
+font:"Liberation Sans","Bitstream Vera Sans","Helvetica Neue","Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
 }
 
 h1,
@@ -62,8 +63,7 @@ border:none !important;
 
 #main_navigation ul li a:hover,
 .second_info ul li a:hover{
-/*color:#69B61D;*/
-color:#538422;
+color:#69B61D;
 }
 
 #main_navigation ul li a,
@@ -163,13 +163,12 @@ list-style: none;
 .second_info h4{
 color:#fff;
 padding:26px 0 0 26px;
+letter-spacing: .01em;
 }
 
 .second_info ul li{
 padding:0 0 0 26px;
 }
-
-
 
 
 .second_info a{
@@ -199,8 +198,7 @@ margin-top:20px;
 }
 
 a{
-/*color:#69b61d;*/
-color:#538422;
+color:#69b61d;
 text-decoration:none;
 }
 
@@ -222,6 +220,4 @@ margin-top:-20px;
 }
 
 #error_404{
-margin-left:175px;
-width:369px;
-}
+display:none;}
