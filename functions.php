@@ -12,22 +12,19 @@ register_sidebar(array(
 function page_excerpt ($page_title, $delimiter='[...]', $length=55)
 {
 	$page = get_page_by_title($page_title, ARRAY_A);
-        $clean_string = $page['post_content'];
+    $text = $page['post_content'];
 
-       return improved_trim_excerpt($clean_string, $delimiter, $length);
-}
+    $text = apply_filters('the_content', $text);
+    $text = str_replace(']]>', ']]&gt;', $text);
+    $text = preg_replace('@<script[^>]*?>.*?</script>@si', '', $text);
+    $text = strip_tags($text, '<p>');
+    $words = explode(' ', $text, $length + 1);
+    if (count($words)> $length) {
+        array_pop($words);
+        array_push($words, $delimiter);
+        $text = implode(' ', $words);
+    }
 
-function improved_trim_excerpt($text, $delimiter, $length) {
-		$text = apply_filters('the_content', $text);
-		$text = str_replace(']]>', ']]&gt;', $text);
-		$text = preg_replace('@<script[^>]*?>.*?</script>@si', '', $text);
-		$text = strip_tags($text, '<p>');
-		$words = explode(' ', $text, $length + 1);
-		if (count($words)> $length) {
-			array_pop($words);
-			array_push($words, $delimiter);
-			$text = implode(' ', $words);
-		}
-	return $text;
+    return $text;
 }
 ?>
