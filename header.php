@@ -8,7 +8,7 @@
 
 <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php bloginfo('rss2_url'); ?>" />
 <link rel="pingback" href="<?php bloginfo('pingback_url');?>" /> 
-<link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/favicon.ico" />
+<link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/img/favicon.ico" />
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
 
