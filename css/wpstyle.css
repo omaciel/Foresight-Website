@@ -151,7 +151,7 @@ div.storycontent ul li, div.storycontent ol li{
 }
 
 div.storycontent ol li{
-	list-style:square;
+	list-style:decimal;
 }
 
 div.storycontent ul li{
@@ -168,6 +168,7 @@ div.comment-meta a, cite.fn{
 
 .sidebar_widget{
 	margin-bottom:1em;
+	display:none;
 }
 
 li.sidebar_widget{
