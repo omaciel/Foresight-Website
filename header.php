@@ -37,10 +37,10 @@
 		<div id="main_navigation" class="grid_12">
 			<ul>
 				<li><a href="<?php bloginfo('url');?>/download/" class="menu">download</a></li>
-				<li><a href="<?php bloginfo('url');?>/find-help/" class="menu">support</a></li>
+				<li><a href="<?php bloginfo('url');?>/support/" class="menu">support</a></li>
 				<li><a href="<?php bloginfo('url');?>/community/" class="menu">community</a></li>
 				<li><a href="<?php bloginfo('url');?>/news/" class="menu">news</a></li>
-				<li><a href="<?php bloginfo('url');?>/contact/" class="menu no_border">contact</a></li>
+				<li><a href="<?php bloginfo('url');?>/about/" class="menu no_border">about</a></li>
 
 			</ul>
 		</div><!--end main_navigation-->
