@@ -10,7 +10,7 @@ Template Name: start page
 				<h3>About <span>Foresight Linux</span></h3>
 					<p><?php $about=page_excerpt("About Foresight Linux"); echo"$about";?></p>
 
-					<p class="read_more"><a href="<?php bloginfo('url');?>/about-foresight-linux/" class="menu">read more</a></p>
+					<p class="read_more"><a href="<?php bloginfo('url');?>/about/" class="menu">read more</a></p>
 			</div><!--end about foresight linux-->
 			
 			<div id="list_of_apps" class="grid_3 first_info">
