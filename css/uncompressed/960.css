@@ -29,7 +29,6 @@
 .grid_9,
 .grid_10,
 .grid_11,
-.grid_12,
 .grid_13,
 .grid_14,
 .grid_15,
@@ -38,6 +37,10 @@
 	float: left;
 	margin-left: 10px;
 	margin-right: 10px;
+}
+
+.grid_12 {
+    width:940px;
 }
 
 .container_12 .grid_3,
