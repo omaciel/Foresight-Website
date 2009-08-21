@@ -36,7 +36,7 @@
 		
 		<div id="main_navigation" class="grid_12">
 			<ul>
-				<li><a href="<?php bloginfo('url');?>/get-foresight-linux/" class="menu">download</a></li>
+				<li><a href="<?php bloginfo('url');?>/download/" class="menu">download</a></li>
 				<li><a href="<?php bloginfo('url');?>/find-help/" class="menu">support</a></li>
 				<li><a href="<?php bloginfo('url');?>/community/" class="menu">community</a></li>
 				<li><a href="<?php bloginfo('url');?>/news/" class="menu">news</a></li>
