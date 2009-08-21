@@ -148,6 +148,7 @@ div.storycontent ul, div.storycontent ol{
 div.storycontent ul li, div.storycontent ol li{
 	font-size:12px;
 	margin-left:1em;
+    text-align:justify;
 }
 
 div.storycontent ol li{
