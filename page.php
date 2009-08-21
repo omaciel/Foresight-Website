@@ -8,7 +8,7 @@
 	</h2>
 						
 	<div class="storycontent">
-	<?php the_content(__('<p class="more">Leia Mais.</p>'));?>
+	<?php the_content(__('<p class="more">Read More.</p>'));?>
 	
 	</div><!-- end storycontent-->	
 	
