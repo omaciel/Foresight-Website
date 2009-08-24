@@ -23,9 +23,9 @@ Template Name: start page
 			
 			<div id="choose_your_version" class="grid_3 first_info">
 				<h3>Choose <span>your version</span></h3>
-					<?php $version=page_excerpt("Choose your version"); echo"$version";?>
+					<?php $version=page_excerpt("Get Foresight Linux"); echo"$version";?>
 					
-				<p class="read_more"><a href="<?php bloginfo('url');?>/choose-your-version/" class="menu">read more</a></p>
+				<p class="read_more"><a href="<?php bloginfo('url');?>/download/" class="menu">read more</a></p>
 			</div><!--end choose your version-->
 			
 			<div id="latest_news" class="grid_3 first_info">
