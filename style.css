@@ -163,7 +163,8 @@ list-style: none;
 .second_info h4{
 color:#fff;
 padding:26px 0 0 26px;
-letter-spacing: .01em;
+letter-spacing: -.03em;
+font-size:15px;
 }
 
 .second_info ul li{

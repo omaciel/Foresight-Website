@@ -39,7 +39,7 @@
 
 <div class="clear"> </div>
 			<div id="website_information" class="grid_16">
-				<p>Foresight Linux 2009. All Rights Reserved. Website by: <a href="http://quartoestudio.com">QuartoEstudio.com</a></p>
+				<p>Foresight Linux <?php echo date('Y'); ?>. All Rights Reserved. Website by: <a href="http://quartoestudio.com">QuartoEstudio.com</a></p>
 				<?php wp_footer();?>
 			</div>
 		</div><!--end secondary navigation-->
